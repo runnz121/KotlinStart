@@ -70,7 +70,7 @@ class Chapter2 {
      * 자바에서 갖고온 인스턴스의 null 체크
      */
     fun javaToKotlin() {
-        var person = Person("널 확인!")
+        var person = Person("널 확인!", 123)
         startsWithA(person.name)
     }
 
